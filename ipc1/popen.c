@@ -84,8 +84,7 @@ popen(const char *cmdstring, const char *type)
 	return(fp);
 }
 
-int
-pclose(FILE *fp)
+int pclose(FILE *fp)
 {
 	int		fd, stat;
 	pid_t	pid;
